@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+
+    background-color:#012A4A ;        
+    margin: 0;
+    padding: 0;
+    height: 100%;    
+    
+}
+h1,h2,h3.ca{
+  color: #A9D6E5;
+}
+
+.master{  
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+.interno{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.canal{
+  width: 130px;
+  height: 130px;
+  /* background-color: rebeccapurple; */
+}
+.botones{
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: space-around;
+
+  /* border: 2px solid black; */
+}
+
+.cuadro1{
+  margin-top: 20px;
+  /* background-color: red; */
+  background-color: #3181AF ;    
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.cuadro2{
+  /* background-color: blue; */
+  background-color: #3181AF ;        
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.cuadro3{
+  /* background-color: pink; */
+  background-color: #3181AF ;        
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.swiper-container.swiper1 {
+  width: 130px;
+  height: 130px;    
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -65px;
+  margin-top: -65px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
